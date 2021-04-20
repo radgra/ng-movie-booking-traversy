@@ -1,0 +1,4 @@
+<label>Pick a Movie</label>
+<select name="movie" [ngModel]="selectedMovie" (ngModelChange)="selectMovie($event)">
+    <option [ngValue]="movie" *ngFor="let movie of movies">{{movie.title}} (${{movie.price}})</option>
+</select>

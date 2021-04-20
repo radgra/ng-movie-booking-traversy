@@ -1,0 +1,13 @@
+:host {
+    display:block;
+    perspective: 1000px;
+    width:100%;
+}
+.screen {
+    height:70px;
+    width:100%;
+    background-color: #fff;
+    margin:15px 0;
+    transform: rotateX(-45deg);
+    box-shadow: 0 30px 10px rgb(255,255,255,0.7);
+}
